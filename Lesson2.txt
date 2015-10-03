@@ -31,3 +31,12 @@ What is the result of merging two branches together? Why do we represent it in t
 
 All changes made in the branch are now inserted / added to the main (master) code base.
 Because each seperate path on the diagram contains it's own version of the code, they don't have to merge again
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic - If 2 people are working on seperate files then this will work perfectly and save a lot of time.
+A programmer only needs to get involved when multiple changes occur to the same section of code.
+This is usually avoided by keeping programmers on different tasks. It can be a problem when 2 branches are
+being merged after a number of changes (long time) have been made.
+
