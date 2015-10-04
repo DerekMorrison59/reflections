@@ -11,3 +11,12 @@ Why might you want to always pull changes manually rather than having Git automa
 * it's hard to make local changes if Git is always trying to keep up-to-date with the remote
 * your local copy might become unexpectedly broken
 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork makes a copy of a repository on a remote site (like GitHub) and puts it in your own account on the remote site.
+(I made a complete copy of the recipes repository using the fork command to copy from Larry's repo to my own)
+A clone makes a copy of a repository from a local or remote location and puts in on your local machine.
+(I've used clone a couple of times to get code from Github. That was a starting point to modify an existing project)
+A branch can occur on either a local or remote location and just means that there are 2 paths in the code with a common commit.
+(the common commit is the point at which the branch starts)
