@@ -20,3 +20,18 @@ A clone makes a copy of a repository from a local or remote location and puts in
 (I've used clone a couple of times to get code from Github. That was a starting point to modify an existing project)
 A branch can occur on either a local or remote location and just means that there are 2 paths in the code with a common commit.
 (the common commit is the point at which the branch starts)
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can use it offline. Perform 'git diff' and 'git log' commands on any remote branches
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Just share files in a common directory (like on a server)
+No check-ins, compares, extra software, command line
+
+Manually have to do diffs on each modified file
+Need to coordiate with other team members about updating files
+Hard to know which files other people have changed (look at the time/date stamp?)
