@@ -35,3 +35,14 @@ No check-ins, compares, extra software, command line
 Manually have to do diffs on each modified file
 Need to coordiate with other team members about updating files
 Hard to know which files other people have changed (look at the time/date stamp?)
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+To test a new feature or idea without breaking the master.
+Master - no need to merge the changes in later (small change / quick edits)
+Branch - lots of changes or big change (like try a new weather provider)
+       - can go on for a long time
+	   - can be thrown away
+	   - can have 2 different new branches with 2 different approaches being tested simultaneously
+	   
